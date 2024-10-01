@@ -6,7 +6,7 @@
     android:gravity="center"
     android:padding="16dp">
 
-    <!-- Exibição do cronômetro -->
+
     <TextView
         android:id="@+id/timeView"
         android:layout_width="wrap_content"
@@ -16,20 +16,20 @@
         android:textAppearance="?android:attr/textAppearanceLarge"
         android:textSize="92sp" />
 
-    <!-- Botão Start -->
+
     <Button
         android:id="@+id/btnStart"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Start"
+        android:text="@string/Start"
         android:onClick="onClickStart" />
 
-    <!-- Botão Stop -->
+
     <Button
         android:id="@+id/btnStop"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Stop"
+        android:text="@string/Stop"
         android:onClick="onClickStop" />
 
     <!-- Botão Reset -->
@@ -37,6 +37,6 @@
         android:id="@+id/btnReset"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Reset"
+        android:text="@string/Reset"
         android:onClick="onClickReset" />
 </LinearLayout>
